@@ -1,18 +1,24 @@
-/* Reset osnovnih stilova */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
+body {
+  background-color: #0A0A0C; 
+  color: #E0E0E0;            
+}
 
-/* Fiksni header sa pozadinom */
+p {
+    color: #E0E0E0
+}
 header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #4CAF50; /* Lepo zelena */
+    background-color: #050663; 
     color: white;
     padding: 15px 0;
     text-align: center;
@@ -40,27 +46,27 @@ nav a {
 }
 
 nav a:hover {
-    color: #FFD700; /* Zlatna boja na hover */
+    color: #F1BE48; 
 }
 
-/* Dodaj razmak zbog fiksnog headera */
+
 main {
     margin-top: 120px; 
     padding: 20px;
 }
 
-/* Sekcije */
+
 section {
     margin-bottom: 50px;
     padding: 20px;
     border-radius: 10px;
-    background-color: #f4f4f4;
+    background-color: #16191E;
 }
 
-/* Footer */
+
 footer {
     text-align: center;
     padding: 15px;
-    background-color: #333;
+    background-color: #050663;
     color: white;
 }
